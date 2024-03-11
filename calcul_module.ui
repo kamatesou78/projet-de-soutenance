@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>calcul_module</class>
+ <widget class="QWidget" name="calcul_module">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>338</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CALCUL_DU_MODULE</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QFrame" name="frame_ch14">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout">
+                    <item>
+                     <widget class="QLabel" name="label_1_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>Effort tangentiel sur la dent </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_2_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>Coefficient de largeur de denture </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_3_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>Résistance pratique à l'extension </string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <item>
+                     <widget class="QLabel" name="label_6_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>T</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_7_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>K</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_8_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>Rpe</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <item alignment="Qt::AlignLeft">
+                     <widget class="QLineEdit" name="lineEdit_1_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignLeft">
+                     <widget class="QLineEdit" name="lineEdit_2_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignLeft">
+                     <widget class="QLineEdit" name="lineEdit_3_module">
+                      <property name="font">
+                       <font>
+                        <family>Arial Black</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item alignment="Qt::AlignHCenter">
+                 <widget class="QPushButton" name="bouton_calculez_ch11">
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Arial Black</family>
+                    <pointsize>14</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>CALCULEZ</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QFormLayout" name="formLayout">
+                <property name="leftMargin">
+                 <number>170</number>
+                </property>
+                <property name="topMargin">
+                 <number>2</number>
+                </property>
+                <property name="rightMargin">
+                 <number>34</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>6</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="QLabel" name="label_9_module">
+                  <property name="font">
+                   <font>
+                    <family>Arial Black</family>
+                    <pointsize>14</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>La valeur du module m =</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QLineEdit" name="lineEdit_4_module">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>24</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>248</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Arial Black</family>
+                    <pointsize>14</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_10_module">
+              <property name="font">
+               <font>
+                <family>Arial Black</family>
+                <pointsize>14</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Les valeurs normalisées du module</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTableWidget" name="tableWidget_module">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+            <row>
+             <property name="text">
+              <string>New Row</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>New Row</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>New Row</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>New Row</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>New Row</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>New Row</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+            <item row="0" column="0">
+             <property name="text">
+              <string>0,06</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="1">
+             <property name="text">
+              <string>0,25</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="2">
+             <property name="text">
+              <string>5</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="3">
+             <property name="text">
+              <string>20</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="4">
+             <property name="text">
+              <string>0,07</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="5">
+             <property name="text">
+              <string>0,28</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="6">
+             <property name="text">
+              <string>1,125</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="7">
+             <property name="text">
+              <string>5,5</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="8">
+             <property name="text">
+              <string>22</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="0" column="9">
+             <property name="text">
+              <string>1,25</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="0">
+             <property name="text">
+              <string>0,08</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="1">
+             <property name="text">
+              <string>0,30</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="2">
+             <property name="text">
+              <string>6</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="3">
+             <property name="text">
+              <string>25</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="4">
+             <property name="text">
+              <string>0,09</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="5">
+             <property name="text">
+              <string>0,35</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="6">
+             <property name="text">
+              <string>1,375</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="7">
+             <property name="text">
+              <string>7</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="8">
+             <property name="text">
+              <string>28</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="1" column="9">
+             <property name="text">
+              <string>1,5</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="0">
+             <property name="text">
+              <string>0,10</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="1">
+             <property name="text">
+              <string>0,40</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="2">
+             <property name="text">
+              <string>8</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="3">
+             <property name="text">
+              <string>32</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="4">
+             <property name="text">
+              <string>0,11</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="5">
+             <property name="text">
+              <string>0,45</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="6">
+             <property name="text">
+              <string>1,75</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="7">
+             <property name="text">
+              <string>9</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="8">
+             <property name="text">
+              <string>36</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="2" column="9">
+             <property name="text">
+              <string>2</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="0">
+             <property name="text">
+              <string>0,12</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="1">
+             <property name="text">
+              <string>0,50</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="2">
+             <property name="text">
+              <string>10</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="3">
+             <property name="text">
+              <string>40</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="4">
+             <property name="text">
+              <string>0,14</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="5">
+             <property name="text">
+              <string>0,55</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="6">
+             <property name="text">
+              <string>2,75</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="7">
+             <property name="text">
+              <string>11</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="8">
+             <property name="text">
+              <string>45</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="3" column="9">
+             <property name="text">
+              <string>2,5</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="0">
+             <property name="text">
+              <string>0,15</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="1">
+             <property name="text">
+              <string>0,75</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="background">
+              <brush brushstyle="NoBrush">
+               <color alpha="255">
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </property>
+            </item>
+            <item row="4" column="2">
+             <property name="text">
+              <string>12</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="3">
+             <property name="text">
+              <string>50</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="4">
+             <property name="text">
+              <string>0,18</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="5">
+             <property name="text">
+              <string>0,7</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="6">
+             <property name="text">
+              <string>3,5</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="7">
+             <property name="text">
+              <string>14</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="8">
+             <property name="text">
+              <string>55</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="4" column="9">
+             <property name="text">
+              <string>3</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="0">
+             <property name="text">
+              <string>0,20</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="1">
+             <property name="text">
+              <string>1,0</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="2">
+             <property name="text">
+              <string>16</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="3">
+             <property name="text">
+              <string>60</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="4">
+             <property name="text">
+              <string>0,22</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="5">
+             <property name="text">
+              <string>0,9</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="6">
+             <property name="text">
+              <string>4,5</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="7">
+             <property name="text">
+              <string>18</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="8">
+             <property name="text">
+              <string>70</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+            <item row="5" column="9">
+             <property name="text">
+              <string>4</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QPushButton" name="bouton_retour_ch13">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial Black</family>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>RETOUR</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

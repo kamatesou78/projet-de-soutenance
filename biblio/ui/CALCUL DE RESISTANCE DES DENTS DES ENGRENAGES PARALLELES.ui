@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RESISTANCE_ENGRENAGE_PARALLELE</class>
+ <widget class="QWidget" name="RESISTANCE_ENGRENAGE_PARALLELE">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>719</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CALCUL DE RESISTANCE SUR LES ENGRENAGES PARALLELES</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>reducteur_gearexpert.gif</normaloff>reducteur_gearexpert.gif</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>927</width>
+        <height>567</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pushButton_EFFORTS_DROITE">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>24</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>CALCUL DE RESISTANCE DES DENTS DES ENGRENAGES A DENTURE
+ DROITE SANS IMPOSER L'ENTRAXE DE FONCTIONNEMENT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="0">
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="pushButton_EFFORTS_CONCOURANT">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>24</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>CALCUL DE RESISTANCE DES DENTS DES ENGRENAGES A DENTURE
+ HELICOIDALE SANS IMPOSER L'ENTRAXE DE FONCTIONNEMENT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="pushButton_EFFORTS_ROUE_VIS">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>24</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>CALCUL DE RESISTANCE DES DENTS DES ENGRENAGES A DENTURE
+ HELICOIDALE AVEC ENTRAXE DE FONCTIONNEMENT IMPOSER</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" alignment="Qt::AlignHCenter">
+        <widget class="QPushButton" name="pushButton_RETOUR_EFFORTS_SUR_DENTS">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>RETOUR</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton_EFFORTS_HELICOIDALE">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>24</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>CALCUL DE RESISTANCE DES DENTS DES ENGRENAGES A DENTURE
+ DROITE AVEC ENTRAXE DE FONCTIONNEMENT IMPOSER</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

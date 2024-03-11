@@ -1,0 +1,2817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Denture_droiteH_deporteE</class>
+ <widget class="QWidget" name="Denture_droiteH_deporteE">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>522</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Denture doite helicoidale deporte exterieur</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>reducteur_gearexpert.gif</normaloff>reducteur_gearexpert.gif</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>-21</x>
+        <y>-565</y>
+        <width>609</width>
+        <height>1776</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Valeurs d'entrée</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_25">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>m</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="3">
+            <widget class="QLabel" name="label_48">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>X2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLineEdit" name="lineEdit5">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="QLabel" name="label_46">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Z2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLineEdit" name="lineEdit1">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLineEdit" name="lineEdit2">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLineEdit" name="lineEdit7">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label3">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle d'hélice de référence</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLabel" name="label_47">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>X1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLabel" name="label_30">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Z1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label6">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Les déports</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_154">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>β</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label5">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Nombre de dent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label2">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle de pression reél</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="4">
+            <widget class="QLineEdit" name="lineEdit6">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="4">
+            <widget class="QLineEdit" name="lineEdit8">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="label_27">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>∝</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label1">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Module normalisé</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLineEdit" name="lineEdit3">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label4">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>La largeur de dent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLabel" name="label_170">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>b</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QLineEdit" name="lineEdit4">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_mi">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Le coefficient de frottement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLabel" name="label_mi_1">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>μ</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QLineEdit" name="lineEdit_mi">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="pushButton">
+           <property name="maximumSize">
+            <size>
+             <width>180</width>
+             <height>180</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>CALCULEZ</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>SAUVEGARDER LES RESULTATS DU CALCUL</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label_45">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Valeurs de sortie</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="9" column="0">
+            <widget class="QLabel" name="label16">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas reél</string>
+             </property>
+            </widget>
+           </item>
+           <item row="27" column="0">
+            <widget class="QLabel" name="label32">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Epaisseur curviligne au cercle de tête</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="2">
+            <widget class="QLineEdit" name="lineEdit23">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_82">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>U</string>
+             </property>
+            </widget>
+           </item>
+           <item row="29" column="1">
+            <widget class="QLabel" name="label_57">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>δ1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="39" column="0">
+            <widget class="QLabel" name="label44">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Rapport de conduite apparent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="28" column="3">
+            <widget class="QLabel" name="label_78">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>sb2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="30" column="1">
+            <widget class="QLabel" name="label_64">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ε1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="3">
+            <widget class="QLabel" name="label_175">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>βa2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="4">
+            <widget class="QLineEdit" name="lineEdit31">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="4">
+            <widget class="QLineEdit" name="lineEdit27">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="4">
+            <widget class="QLineEdit" name="lineEdit16">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="24" column="1">
+            <widget class="QLabel" name="label_51">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Sn1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="19" column="4">
+            <widget class="QLineEdit" name="lineEdit33">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="22" column="0">
+            <widget class="QLabel" name="label27">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Hauteur </string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_39">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>∝t</string>
+             </property>
+            </widget>
+           </item>
+           <item row="37" column="0">
+            <widget class="QLabel" name="label42">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Arc total de conduite</string>
+             </property>
+            </widget>
+           </item>
+           <item row="28" column="0">
+            <widget class="QLabel" name="label33">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Epaisseur curviligne au cercle de base</string>
+             </property>
+            </widget>
+           </item>
+           <item row="29" column="3">
+            <widget class="QLabel" name="label_79">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>δ2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="34" column="0">
+            <widget class="QLabel" name="label39">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Longueur de conduite apparente</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="0">
+            <widget class="QLabel" name="label_36">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas de base apparent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="27" column="4">
+            <widget class="QLineEdit" name="lineEdit48">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="4">
+            <widget class="QLineEdit" name="lineEdit37">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="29" column="4">
+            <widget class="QLineEdit" name="lineEdit52">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="26" column="4">
+            <widget class="QLineEdit" name="lineEdit46">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label7">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Le rapport d'engrenage</string>
+             </property>
+            </widget>
+           </item>
+           <item row="23" column="1">
+            <widget class="QLabel" name="label_52">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>∝at1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="23" column="4">
+            <widget class="QLineEdit" name="lineEdit40">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLabel" name="label_174">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>βa1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="28" column="4">
+            <widget class="QLineEdit" name="lineEdit50">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="4">
+            <widget class="QLineEdit" name="lineEdit35">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="4">
+            <widget class="QLineEdit" name="lineEdit29">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="30" column="3">
+            <widget class="QLabel" name="label_80">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ε2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="4">
+            <widget class="QLineEdit" name="lineEdit25">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="24" column="4">
+            <widget class="QLineEdit" name="lineEdit42">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="0">
+            <widget class="QLabel" name="label22">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre de tête</string>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="2">
+            <widget class="QLineEdit" name="lineEdit28">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLineEdit" name="lineEdit9">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="3">
+            <widget class="QLabel" name="label_72">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>df2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="2">
+            <widget class="QLineEdit" name="lineEdit19">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="1">
+            <widget class="QLabel" name="label_53">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ha1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="0">
+            <widget class="QLabel" name="label20">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre primitif</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="2">
+            <widget class="QLineEdit" name="lineEdit20">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QLineEdit" name="lineEdit12">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="2">
+            <widget class="QLineEdit" name="lineEdit24">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLineEdit" name="lineEdit11">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="38" column="0">
+            <widget class="QLabel" name="label43">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Rapport de recouvrement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLabel" name="label_172">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>β'</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLabel" name="label_173">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>βb</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLabel" name="label_171">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>∝'t</string>
+             </property>
+            </widget>
+           </item>
+           <item row="25" column="3">
+            <widget class="QLabel" name="label_181">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>St1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="25" column="2">
+            <widget class="QLineEdit" name="lineEdit43">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="35" column="0">
+            <widget class="QLabel" name="label40">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Longueur de recouvrement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="30" column="2">
+            <widget class="QLineEdit" name="lineEdit53">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="2">
+            <widget class="QLineEdit" name="lineEdit34">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="27" column="2">
+            <widget class="QLineEdit" name="lineEdit47">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="label17">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas apparent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="32" column="2">
+            <widget class="QLineEdit" name="lineEdit56">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="31" column="2">
+            <widget class="QLineEdit" name="lineEdit55">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="2">
+            <widget class="QLineEdit" name="lineEdit17">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="40" column="0">
+            <widget class="QLabel" name="label45">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Rapport total de conduite</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="label18">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas de base reél</string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="1">
+            <widget class="QLabel" name="label_59">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>df1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QLineEdit" name="lineEdit15">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="1">
+            <widget class="QLabel" name="label_61">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>a'</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QLineEdit" name="lineEdit13">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="1">
+            <widget class="QLabel" name="label_41">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>hf1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="19" column="1">
+            <widget class="QLabel" name="label_49">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>db1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="25" column="1">
+            <widget class="QLabel" name="label_180">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>St1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2">
+            <widget class="QLineEdit" name="lineEdit14">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="3">
+            <widget class="QLabel" name="label_73">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>hf2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="1">
+            <widget class="QLabel" name="label_60">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>d1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="31" column="1">
+            <widget class="QLabel" name="label_66">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ε∝</string>
+             </property>
+            </widget>
+           </item>
+           <item row="32" column="1">
+            <widget class="QLabel" name="label_65">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>gf</string>
+             </property>
+            </widget>
+           </item>
+           <item row="24" column="3">
+            <widget class="QLabel" name="label_75">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Sn2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="32" column="0">
+            <widget class="QLabel" name="label37">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Longueur d'approche apparente</string>
+             </property>
+            </widget>
+           </item>
+           <item row="26" column="3">
+            <widget class="QLabel" name="label_76">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>s't2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="27" column="3">
+            <widget class="QLabel" name="label_77">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>sa2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="3">
+            <widget class="QLabel" name="label_56">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ha2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="23" column="3">
+            <widget class="QLabel" name="label_74">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>∝at2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="29" column="2">
+            <widget class="QLineEdit" name="lineEdit51">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="39" column="2">
+            <widget class="QLineEdit" name="lineEdit63">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="28" column="2">
+            <widget class="QLineEdit" name="lineEdit49">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="3">
+            <widget class="QLabel" name="label_69">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>d2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="0">
+            <widget class="QLabel" name="label21">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre primitif de fonctionnement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="37" column="2">
+            <widget class="QLineEdit" name="lineEdit61">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="2">
+            <widget class="QLineEdit" name="lineEdit36">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="30" column="4">
+            <widget class="QLineEdit" name="lineEdit54">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="0">
+            <widget class="QLabel" name="label23">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre de pied</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="0">
+            <widget class="QLabel" name="label_11">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Entraxe de fonctionnement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="36" column="2">
+            <widget class="QLineEdit" name="lineEdit60">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="35" column="2">
+            <widget class="QLineEdit" name="lineEdit59">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="33" column="2">
+            <widget class="QLineEdit" name="lineEdit57">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="37" column="1">
+            <widget class="QLabel" name="label_54">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>gy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="40" column="2">
+            <widget class="QLineEdit" name="lineEdit64">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QLabel" name="label_50">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>pt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QLabel" name="label_62">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>pn</string>
+             </property>
+            </widget>
+           </item>
+           <item row="28" column="1">
+            <widget class="QLabel" name="label_58">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>sb1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="27" column="1">
+            <widget class="QLabel" name="label_43">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>sa1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="25" column="0">
+            <widget class="QLabel" name="label30">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Epaisseur curviligne apparent au primitif</string>
+             </property>
+            </widget>
+           </item>
+           <item row="33" column="0">
+            <widget class="QLabel" name="label38">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Longueur de retraite apparente</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_34">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle d'hélice de fonctionnement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="1">
+            <widget class="QLabel" name="label_68">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>d1'</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label10">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle de pression de fonctionnement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="26" column="1">
+            <widget class="QLabel" name="label_44">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>s't1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label13">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle d'hélice au cercle de tête</string>
+             </property>
+            </widget>
+           </item>
+           <item row="23" column="0">
+            <widget class="QLabel" name="label28">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle de pression de tête</string>
+             </property>
+            </widget>
+           </item>
+           <item row="38" column="1">
+            <widget class="QLabel" name="label_185">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>εβ</string>
+             </property>
+            </widget>
+           </item>
+           <item row="34" column="1">
+            <widget class="QLabel" name="label_182">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>g∝</string>
+             </property>
+            </widget>
+           </item>
+           <item row="33" column="1">
+            <widget class="QLabel" name="label_81">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ga</string>
+             </property>
+            </widget>
+           </item>
+           <item row="24" column="2">
+            <widget class="QLineEdit" name="lineEdit41">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="30" column="0">
+            <widget class="QLabel" name="label35">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Rapport de conduite partiel de retraite </string>
+             </property>
+            </widget>
+           </item>
+           <item row="24" column="0">
+            <widget class="QLabel" name="label29">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Epaisseur curviligne reél au primitif</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label15">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Module de fonctionnement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="31" column="0">
+            <widget class="QLabel" name="label36">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Rapport de conduite total</string>
+             </property>
+            </widget>
+           </item>
+           <item row="36" column="0">
+            <widget class="QLabel" name="label41">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Arc de conduite apparent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="2">
+            <widget class="QLineEdit" name="lineEdit26">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="19" column="2">
+            <widget class="QLineEdit" name="lineEdit32">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label12">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle d'hélice de base</string>
+             </property>
+            </widget>
+           </item>
+           <item row="22" column="2">
+            <widget class="QLineEdit" name="lineEdit38">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="29" column="0">
+            <widget class="QLabel" name="label34">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Déport de denture</string>
+             </property>
+            </widget>
+           </item>
+           <item row="25" column="4">
+            <widget class="QLineEdit" name="lineEdit44">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label14">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Module de apparent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label9">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle de pression apparent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1">
+            <widget class="QLabel" name="label_176">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>mt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="35" column="1">
+            <widget class="QLabel" name="label_184">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>gβ</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="2">
+            <widget class="QLineEdit" name="lineEdit21">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="22" column="1">
+            <widget class="QLabel" name="label_63">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>h</string>
+             </property>
+            </widget>
+           </item>
+           <item row="36" column="1">
+            <widget class="QLabel" name="label_183">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>gt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1">
+            <widget class="QLabel" name="label_179">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ptn</string>
+             </property>
+            </widget>
+           </item>
+           <item row="39" column="1">
+            <widget class="QLabel" name="label_186">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>εt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLabel" name="label_177">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>m'</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="2">
+            <widget class="QLineEdit" name="lineEdit22">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1">
+            <widget class="QLabel" name="label_178">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>pbn</string>
+             </property>
+            </widget>
+           </item>
+           <item row="20" column="0">
+            <widget class="QLabel" name="label25">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Saillie de fonctionnememt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="2">
+            <widget class="QLineEdit" name="lineEdit18">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="40" column="1">
+            <widget class="QLabel" name="label_187">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>εy</string>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="1">
+            <widget class="QLabel" name="label_67">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>da1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="19" column="3">
+            <widget class="QLabel" name="label_55">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>db2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="26" column="2">
+            <widget class="QLineEdit" name="lineEdit45">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="19" column="0">
+            <widget class="QLabel" name="label24">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre de base</string>
+             </property>
+            </widget>
+           </item>
+           <item row="18" column="2">
+            <widget class="QLineEdit" name="lineEdit30">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="3">
+            <widget class="QLabel" name="label_71">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>da2</string>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="3">
+            <widget class="QLabel" name="label_70">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>d2'</string>
+             </property>
+            </widget>
+           </item>
+           <item row="38" column="2">
+            <widget class="QLineEdit" name="lineEdit62">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="26" column="0">
+            <widget class="QLabel" name="label31_2">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Epaisseur curviligne au primitif de fonctionnement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="23" column="2">
+            <widget class="QLineEdit" name="lineEdit39">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="34" column="2">
+            <widget class="QLineEdit" name="lineEdit58">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label8">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Le rapport de transmission</string>
+             </property>
+            </widget>
+           </item>
+           <item row="21" column="0">
+            <widget class="QLabel" name="label26">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Creux de fonctionnement</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLineEdit" name="lineEdit10">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="label_83">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>i</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Entraxe</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="1">
+            <widget class="QLabel" name="label_84">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>a</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="2">
+            <widget class="QLineEdit" name="lineEdit22_1">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label46">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Le rendement</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item alignment="Qt::AlignRight">
+            <widget class="QLabel" name="label31">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ηméc</string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit65">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QLabel" name="label_37">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>%</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>RETOUR</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

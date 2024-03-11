@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ROUE_VIS_SANS_FIN</class>
+ <widget class="QWidget" name="ROUE_VIS_SANS_FIN">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ROUE VIS SANS FIN</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>reducteur_gearexpert.gif</normaloff>reducteur_gearexpert.gif</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-610</y>
+        <width>523</width>
+        <height>1050</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Valeurs d'entrée</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="4" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_30">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Zv</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label5">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Nombre de filets</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_154">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>16</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>q</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_27">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>∝</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label1">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Module normalisé</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label2">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle de pression reél</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit1">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label3">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Coefficient diamétral</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit2">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit5">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_25">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>m</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label4">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Nombre de dent roue</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="3" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit4">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit3">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_170">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Zr</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label6">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Cofficient de friction</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_49">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>μ</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="3" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit5_1">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="pushButton">
+           <property name="maximumSize">
+            <size>
+             <width>180</width>
+             <height>180</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>CALCULEZ</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>SAUVEGARDER LES RESULTATS DU CALCUL</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="label_45">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Valeurs de sortie</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="4" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_41">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>pt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_174">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>pz</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_63">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>px</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_53">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>pn</string>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_55">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>L</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_67">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>h</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_72">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>∝x</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_59">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>dav</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_71">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>dfv</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit13">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit14">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit12">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit11">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_178">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>ha</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit8">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="0">
+            <widget class="QLabel" name="label23">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Longueur de la vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit6">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="0">
+            <widget class="QLabel" name="label21">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre de pied vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="label15">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre primitive vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label12">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas axial vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label9">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Module axial vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="label14">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre primitive roue</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_176">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>dr</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_62">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>a</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label10">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas réel roue</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label11">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas apparent roue</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label13">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pas de l'hélice</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="label17">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Saillie</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="0">
+            <widget class="QLabel" name="label18">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Creux</string>
+             </property>
+            </widget>
+           </item>
+           <item row="16" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit22">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit23">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_60">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>mx</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_68">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>hf</string>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="0">
+            <widget class="QLabel" name="label22">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle de pression axial vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="0">
+            <widget class="QLabel" name="label24">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Largeur de la dent de la roue</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_82">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>βv</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="0">
+            <widget class="QLabel" name="label19">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Hauteur de la dent</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label7">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle d'hélice vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="label16">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Entraxe</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit10">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit9">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="17" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_74">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>b</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label8">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Angle d'hélice roue</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit7">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_83">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>βr</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="0">
+            <widget class="QLabel" name="label20">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Diamètre de tête vis</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_177">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>dv</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit19">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="15" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit21">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit17">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit20">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit15">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit18">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="2" alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit16">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Le rendement</string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_50">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>η</string>
+             </property>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QLineEdit" name="lineEdit24">
+             <property name="font">
+              <font>
+               <family>Arial Black</family>
+               <pointsize>14</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="font">
+            <font>
+             <family>Arial Black</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>RETOUR</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
